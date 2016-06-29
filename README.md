@@ -21,7 +21,6 @@ Add the following styles to your _style_ tag or css file. (Margins given in sear
       .searchContainer input#search{
       width: 300px;
       float: left;
-      color: #63717f;
       padding-left: 40px;
       }
       .searchContainer .searchIcon{
