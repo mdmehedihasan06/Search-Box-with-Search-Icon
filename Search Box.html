@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<style>
+.searchContainer{
+    position: relative;
+	margin-top: 150px;
+	margin-left: 150px;
+  }
+  .searchContainer input#search{
+  width: 300px;
+  float: left;
+  color: #63717f;
+  padding-left: 40px;
+  }
+  .searchContainer .searchIcon{
+  position: absolute;
+  top: 50%;
+  margin-left: 15px;
+  margin-top: 8px;
+  z-index: 1;
+  color: gray;
+  }
+</style>
+</head>
+<body>
+<div class="searchContainer">
+  <span class="searchIcon"><i class="fa fa-search"></i></span>
+  <input type="text" class="form-control" id="search" placeholder="Search..." />
+</div>
+</body>
+</html>
+
