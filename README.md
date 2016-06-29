@@ -10,11 +10,13 @@ These bootstrap, jQuery and font awesome references are needed to work for this 
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
 # CSS Styles
-Add the following styles to your _style_ tag or css file.
+Add the following styles to your _style_ tag or css file. (Margins given in searchContainer are to display the search box better in demo page)
 
     <style>
       .searchContainer{
       position: relative;
+      margin-top: 150px;
+      margin-left: 150px;
       }
       .searchContainer input#search{
       width: 300px;
