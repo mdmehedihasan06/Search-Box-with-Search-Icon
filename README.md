@@ -1,6 +1,9 @@
 # Search-Box-with-Search-Icon
 CSS tricks to create a custom search box with font awesome search icon.
 
+# Demo
+You can see the demo at <a href="https://plnkr.co/edit/BYDZUH0yXckRd7ukQTjf?p=info" target="_blank">Search Box with font awesome icon inside</a>
+
 # References needed
 These bootstrap, jQuery and font awesome references are needed to work for this search box.
 
